@@ -1,6 +1,6 @@
 import React from "react";
 
-export class ClassComp extends React.Component {
+class ClassComp extends React.Component {
 
   render() {
 
@@ -9,3 +9,5 @@ export class ClassComp extends React.Component {
   }
 
 }
+
+export default ClassComp;

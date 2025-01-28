@@ -1,0 +1,14 @@
+body{
+   
+    background-color:beige;
+    display: 'block';
+                  width: 700;
+                  padding: 30; 
+
+}
+Table{
+    display: inline;
+    color:aquamarine;
+    width: 700;
+    padding: 30;
+}

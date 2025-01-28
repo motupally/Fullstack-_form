@@ -6,8 +6,8 @@ function Profile() {
   const [tableData, setTableData] = useState([]);
   const [formObject, setFormObject] = useState({
     id: "",
-    title: "",
-    description: ""
+    name: "",
+    email: ""
   });
   const onValChange = (event) => {
     
@@ -25,7 +25,7 @@ function Profile() {
     if (checkVal) {
       const dataObj = (data) => [...data, formObject];
       setTableData(dataObj);
-      const isEmpty = { id: "", title: "", description: "" };
+      const isEmpty = { id: "", name: "", email: "" };
       setFormObject(isEmpty);
     }
   };
